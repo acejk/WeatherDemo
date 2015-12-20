@@ -6,7 +6,7 @@ package com.ace.weathertest.model;
 public class County {
     private int id;
     private String countyName;
-    private String countCode;
+    private String countyCode;
     private int cityId;
 
     public int getId() {
@@ -25,12 +25,12 @@ public class County {
         this.countyName = countyName;
     }
 
-    public String getCountCode() {
-        return countCode;
+    public String getCountyCode() {
+        return countyCode;
     }
 
-    public void setCountCode(String countCode) {
-        this.countCode = countCode;
+    public void setCountyCode(String countyCode) {
+        this.countyCode = countyCode;
     }
 
     public int getCityId() {
